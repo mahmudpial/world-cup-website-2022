@@ -36,13 +36,33 @@ Header {
   background-color: #dd0000;
   color: aliceblue;
 }
-/* .header-image {
-  width: 518px;
-  height: 713px;
-} */
+
 .banner-img {
   width: 518px;
   height: 613px;
   margin-top: 33px;
   margin-left: 105px;
+}
+/*------------------------
+ first block section  
+ --------------------------*/
+.side-navigation {
+  height: 312px;
+  width: 312px;
+  background-color: #161616;
+  border-radius: 10px;
+  margin-top: 100px;
+  margin-left: 250px;
+}
+.navigation-button {
+  width: 252px;
+  height: 64px;
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.navigation-button a {
+  text-decoration: none;
+  font-size: 20px;
 }
