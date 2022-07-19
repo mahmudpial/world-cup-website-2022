@@ -1,0 +1,48 @@
+/*--------
+  fonts
+ --------- */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Lobster&family=Poppins:wght@500;700&display=swap");
+
+/*------------------------
+ common style o utilities 
+ ------------------------- */
+Header {
+  display: flex;
+  background-color: #161616;
+  width: 1421px;
+  height: 646px;
+  border-radius: 15px;
+  margin-top: 50px;
+  margin-left: 250px;
+}
+.header-info {
+  margin-left: 157px;
+  height: 424px;
+  width: 513px;
+}
+.header-title {
+  font-size: 90px;
+  color: white;
+}
+.header-text {
+  size: 16px;
+  color: white;
+}
+.header-button {
+  width: 187px;
+  height: 56px;
+  border-radius: 5px;
+  padding: 16px 25px;
+  background-color: #dd0000;
+  color: aliceblue;
+}
+/* .header-image {
+  width: 518px;
+  height: 713px;
+} */
+.banner-img {
+  width: 518px;
+  height: 613px;
+  margin-top: 33px;
+  margin-left: 105px;
+}
