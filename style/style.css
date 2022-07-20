@@ -152,3 +152,54 @@ footer {
 #social-icon {
   font-size: 30px;
 }
+
+/*-----------------------------------
+ upcomming-matches section  
+ -----------------------------------*/
+.nav-and-matches {
+  display: flex;
+}
+.Match-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 52px;
+  margin-left: 25px;
+}
+.Match-section {
+  width: 300px;
+  height: 202px;
+  /* border: 1px solid black; */
+  padding-left: 50px;
+  padding-top: 66px;
+  border-radius: 15px;
+  background-color: rgb(238, 238, 238);
+  box-shadow: #e0dfdf;
+}
+
+.flag-section {
+  width: 252px;
+  height: 56.18px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: none;
+}
+.vs {
+  text-align: center;
+  padding-top: 20px;
+}
+.Teams {
+  position: absolute;
+  margin-top: 20px;
+}
+.Teams-name {
+  font-family: "Poppins";
+  font-size: 20px;
+  padding-left: 15px;
+}
+.Match-time {
+  font-family: "Poppins";
+  font-size: 16px;
+  text-align: justify;
+  padding-left: 30px;
+}
