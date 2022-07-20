@@ -43,8 +43,12 @@ Header {
   margin-top: 33px;
   margin-left: 105px;
 }
+hr {
+  margin-left: 70px;
+  margin-right: 70px;
+}
 /*------------------------
- first block section  
+ side navigation block section  
  --------------------------*/
 .side-navigation {
   height: 312px;
@@ -65,6 +69,7 @@ Header {
 .navigation-button a {
   text-decoration: none;
   font-size: 20px;
+  font-family: "Poppins";
 }
 
 /*----------------
@@ -93,6 +98,7 @@ Header {
 .blog-details {
   margin-top: 30px;
   margin-left: 15px;
+  font-family: "Poppins";
 }
 .blog-info {
   display: flex;
@@ -100,4 +106,48 @@ Header {
 }
 .blog-massage {
   margin-left: 15px;
+}
+/*----------------
+ blog section end
+ -----------------*/
+
+/*---------------------------
+    For footer section  
+  --------------------------*/
+footer {
+  position: absolute;
+  width: 1885px;
+  height: 444px;
+  background-color: #161616;
+  margin-top: 65px;
+}
+.footer-text {
+  color: #ffffff;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 130px;
+}
+
+.footer-information {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 50px;
+  text-decoration: none;
+  font-family: "Poppins";
+}
+.footer-information a {
+  text-decoration: none;
+  color: #b9b9b9;
+}
+.footer-social-icon {
+  margin-top: 20px;
+  margin-left: 180px;
+  padding-left: 600px;
+  padding-right: 600px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+#social-icon {
+  font-size: 30px;
 }
