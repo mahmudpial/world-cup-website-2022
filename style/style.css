@@ -78,12 +78,17 @@ Header {
   margin-left: 25px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
 .blogs-article {
-  width: 312px;
+  width: 338px;
   height: 362px;
   background-color: rgb(250, 250, 250);
   border-radius: 10px;
+  margin-left: 10px;
+}
+.blog-banner-image img {
+  width: 338px;
 }
 .blog-details {
   margin-top: 30px;
