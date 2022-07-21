@@ -175,6 +175,23 @@ hr {
   text-align: justify;
   padding-left: 30px;
 }
+#view.hidden {
+  display: none;
+}
+.button-view {
+  margin-top: 20px;
+  font-family: "Poppins";
+  width: 187px;
+  height: 56px;
+  border-radius: 5px;
+  padding: 16px 25px;
+  background-color: #dd0000;
+  color: aliceblue;
+}
+.button-view span {
+  margin-top: 10px;
+  align-items: center;
+}
 /*---------------------------
     For footer section  
   --------------------------*/
